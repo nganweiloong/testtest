@@ -1,0 +1,12 @@
+[
+  {
+    "profile": "homepage",
+    "env": "stg",
+    "endpoint": "https://digital-fortress-dev.eco.astro.com.my/dev/config/JL3yGxkBGl/config.json"
+  },
+  {
+    "profile": "homepage",
+    "env": "prod",
+    "endpoint": "https://digital-fortress-assets.eco.astro.com.my/prod/config/K5OjDOWv2Z/config.json?v=1"
+  }
+]

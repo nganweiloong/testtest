@@ -1,0 +1,8 @@
+{
+  "path": "@digitalroute/cz-conventional-changelog-for-jira",
+  "skipScope": false,
+  "jiraOptional": true,
+  "jiraPrefix": "ACM20",
+  "jiraPrepend": "[",
+  "jiraAppend": "]"
+}

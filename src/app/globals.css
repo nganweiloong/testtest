@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html,
+  body {
+    @apply m-0 p-0 ty-body text-neutral-v2-100 min-h-screen;
+  }
+
+  main {
+    @apply min-h-screen;
+  }
+
+  a {
+    @apply text-[inherit] no-underline;
+  }
+
+  b {
+    @apply font-bold;
+  }
+
+  strong {
+    @apply font-extrabold;
+  }
+
+  .acm.acm-modal {
+    @apply z-[1300];
+  }
+
+  #ci-frame,
+  #chat-button-frame,
+  #chat-window-frame,
+  #chat-prompt-frame {
+    @apply !z-[20];
+  }
+}
